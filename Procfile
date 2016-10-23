@@ -1,1 +1,1 @@
-echo "web: bundle exec rails server -p $PORT" > Procfile
+echo "web: sh startServer-heroku.sh" > Procfile
