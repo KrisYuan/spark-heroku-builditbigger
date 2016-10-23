@@ -1,1 +1,1 @@
-echo "web: sh startServer-heroku.sh" > Procfile
+echo "web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main" > Procfile
