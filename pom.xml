@@ -41,6 +41,7 @@
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        
                     </execution>
                 </executions>
                 <configuration>
