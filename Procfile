@@ -1,1 +1,1 @@
-echo "web: sh target/bin/webapp" > Procfile
+echo "web: `bundle exec rails server -p $PORT" > Procfile
